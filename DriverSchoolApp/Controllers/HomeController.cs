@@ -15,4 +15,7 @@ public class HomeController : Controller
     public IActionResult Contacts()
         => this.View();
 
+    public IActionResult AboutUs()
+        => this.View();
+
 }
