@@ -1,5 +1,4 @@
-﻿using DriverSchoolApp.Models;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
 namespace DriverSchoolApp.Controllers;
@@ -17,5 +16,7 @@ public class HomeController : Controller
 
     public IActionResult AboutUs()
         => this.View();
+
+    public IActionResult Error()=> this.View();
 
 }
