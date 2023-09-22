@@ -1,17 +1,22 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using DriverSchoolApp.Models.Categories;
+using Microsoft.AspNetCore.Mvc;
 
-namespace DriverSchoolApp.Controllers
+namespace DriverSchoolApp.Controllers;
+
+public class CategoriesController : Controller
 {
-    public class CategoriesController : Controller
+    public IActionResult CategoryB()
     {
-        public IActionResult CategoryB() =>
-            this. View();
+        Category_B category_B = new Category_B();
 
-        public IActionResult CategoryBAuto() =>
-            this.View();
-
-        public IActionResult CategoryC() =>
-            this.View();
-
+        return this.View(category_B);
     }
+
+
+    public IActionResult CategoryBAuto() =>
+        this.View();
+
+    public IActionResult CategoryC() =>
+        this.View();
+
 }

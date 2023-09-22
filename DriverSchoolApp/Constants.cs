@@ -71,23 +71,4 @@ public static class Constants
         public const string CategoryCTitle = "категория \"C\"";
         public const string CategoryCDescription = "управление на товрен автомобил";
     }
-
-    public static class CategoryBPage
-    {
-        public const string CategoryBTitle = "категория \"В\"";
-        public const string NecessaryDocuments = "Какво ни е нужно да започнем";
-        public const string PageTitle = "Курсът включва теоретична и практическа подготовка. Управлението на автомобила се провежда на полигон, в населено и извън населено място";
-
-        public const string Diploma = "Диплома";
-        public const string DiplomaDescription = "Валидна диплома за завършено средно образование";
-
-        public const string Passport = "Лична карта";
-        public const string PassportDescription = "Валиден документ за самоличност";
-
-        public const string ProfileImage = "Снимка паспортен формат";
-        public const string ProfileImageDescription = "Актуална снимка";
-
-        public const string MinAge = "Навършени 17 години и 9 месеца";
-        public const string MinAgeDescription = "Необходима минимално възраст";
-    }
 }
