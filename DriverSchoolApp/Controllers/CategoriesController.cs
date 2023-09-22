@@ -13,10 +13,25 @@ public class CategoriesController : Controller
     }
 
 
-    public IActionResult CategoryBAuto() =>
-        this.View();
+    public IActionResult CategoryBAuto()
+    {
+        Category_BAuto category_B = new Category_BAuto();
 
-    public IActionResult CategoryC() =>
-        this.View();
+        return this.View(category_B);
+    }
+
+    public IActionResult CategoryBE()
+    {
+        Category_BE category_BE = new Category_BE();
+
+        return this.View(category_BE);
+    }
+
+    public IActionResult CategoryC()
+    {
+        Category_C category_C = new Category_C();
+
+        return this.View(category_C);
+    }
 
 }
