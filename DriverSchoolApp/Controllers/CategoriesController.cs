@@ -34,4 +34,11 @@ public class CategoriesController : Controller
         return this.View(category_C);
     }
 
+    public IActionResult CategoryCE()
+    {
+        Category_CE category_CE = new Category_CE();
+
+        return this.View(category_CE);
+    }
+
 }

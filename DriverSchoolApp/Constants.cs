@@ -53,22 +53,22 @@ public static class Constants
 
     public static class CoursesPage
     {
-        public const string TrandingCourses = "Обучение за категории";
-        public const string CoursesUpskill = "Нашите курсове";
+        //public const string TrandingCourses = "Обучение за категории";
+        //public const string CoursesUpskill = "Нашите курсове";
 
-        public const string CategoryBTitle = "категория \"В\"";
-        public const string CategoryBDescription = "автомобили с ръчни скорости";
+        //public const string CategoryBTitle = "категория \"В\"";
+        //public const string CategoryBDescription = "автомобили с ръчни скорости";
 
-        public const string CategoryBAutoTitle = "категория \"В\"";
-        public const string CategoryBAutDescription = "автомобил с автоматични скорости";
+        //public const string CategoryBAutoTitle = "категория \"В\"";
+        //public const string CategoryBAutDescription = "автомобил с автоматични скорости";
 
-        public const string RefresherClasses = "опреснителни часове";
-        public const string RefresherClassesDescription = "опреснителни часове по кормуване";
+        //public const string RefresherClasses = "опреснителни часове";
+        //public const string RefresherClassesDescription = "опреснителни часове по кормуване";
 
-        public const string CategoryBETitle = "категория \"В + E\"";
-        public const string CategoryBEDescription = "управление на автомобил с ремарке";
+        //public const string CategoryBETitle = "категория \"В + E\"";
+        //public const string CategoryBEDescription = "управление на автомобил с ремарке";
 
-        public const string CategoryCTitle = "категория \"C\"";
-        public const string CategoryCDescription = "управление на товрен автомобил";
+        //public const string CategoryCTitle = "категория \"C\"";
+        //public const string CategoryCDescription = "управление на товрен автомобил";
     }
 }
