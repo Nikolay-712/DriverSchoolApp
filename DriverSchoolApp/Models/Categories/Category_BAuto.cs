@@ -4,7 +4,7 @@ public class Category_BAuto
 {
     public string PageTitle => "Ние обучаваме и формираме отлично подготвени бъдещи шофьори";
 
-    public string CategoryName => "категория B/78 автоматик";
+    public string CategoryName => "категория \"В/78\"";
 
     public string CategoryRules => "Какво ни е нужно да започнем";
 

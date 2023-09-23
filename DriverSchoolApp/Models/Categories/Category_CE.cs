@@ -4,7 +4,7 @@ public class Category_CE
 {
     public string PageTitle => "Ние обучаваме и формираме отлично подготвени бъдещи шофьори";
 
-    public string CategoryName => "категория CE";
+    public string CategoryName => "категория \"CE\"";
 
     public string CategoryRules => "Какво ни е нужно да започнем";
 
@@ -34,6 +34,4 @@ public class Category_CE
             "Изпит за придобиване на правоспособност",
             "Лицата, които кандидатстват за придобиване на правоспособност за управление на МПС от категория СE полагат теоретичен и практически изпит",
     };
-
-    public string ImageUrl => "img/categories_B_car.jpg";
 }

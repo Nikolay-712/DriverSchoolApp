@@ -13,15 +13,12 @@ public class CoursesModel
 
     public string CategoryBDescription => "автомобили с ръчни скорости";
 
-    public string CatrgoryBImageUrl { get; set; }
-
 
 
     public string CategoryBAutoTitle => "категория \"В-78\"";
 
     public string CategoryBAutDescription => "автомобил с автоматични скорости";
 
-    public string CatrgoryBAutoImageUrl { get; set; }
 
 
 
@@ -29,7 +26,6 @@ public class CoursesModel
 
     public string CategoryBEDescription => "управление на автомобил с ремарке";
 
-    public string CatrgoryBEImageUrl { get; set; }
 
 
 
@@ -37,13 +33,9 @@ public class CoursesModel
 
     public string CategoryCDescription => "управление на товрен автомобил";
 
-    public string CatrgoryCImageUrl { get; set; }
-
 
 
     public string CategoryCETitle => "категория \"CE\"";
 
     public string CategoryCEDescription => "управление на товрен автомобил с ремарке";
-
-    public string CatrgoryCEImageUrl { get; set; }
 }

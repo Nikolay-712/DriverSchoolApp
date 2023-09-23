@@ -4,7 +4,7 @@ public class Category_B
 {
     public string PageTitle => "Ние обучаваме и формираме отлично подготвени бъдещи шофьори";
 
-    public string CategoryName => "категория B";
+    public string CategoryName => "категория \"В\"";
 
     public string CategoryRules => "Какво ни е нужно да започнем";
 
