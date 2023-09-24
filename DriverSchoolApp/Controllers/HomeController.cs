@@ -7,7 +7,12 @@ namespace DriverSchoolApp.Controllers;
 public class HomeController : Controller
 {
     public IActionResult Index()
-        => this.View();
+    {
+        IndexViewModel indexViewModel = new IndexViewModel();
+
+        return this.View(indexViewModel);
+    }
+
 
     public IActionResult Courses()
     {
@@ -21,7 +26,11 @@ public class HomeController : Controller
         => this.View();
 
     public IActionResult AboutUs()
-        => this.View();
+    {
+        IndexViewModel indexViewModel = new IndexViewModel();
+
+        return this.View(indexViewModel);
+    }
 
     public IActionResult Error() => this.View();
 

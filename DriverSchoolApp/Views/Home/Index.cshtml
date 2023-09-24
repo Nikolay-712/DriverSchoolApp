@@ -1,4 +1,6 @@
-﻿@using static DriverSchoolApp.Constants.IndexPage
+﻿@using DriverSchoolApp.Models;
+
+@model IndexViewModel
 
 
  <!-- Carousel Start -->
@@ -11,7 +13,7 @@
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-7">
-                                <h4 class="display-2 text-light mb-5 animated slideInDown">@HeaderCarouselTextFirst</h4>
+                                <h4 class="display-2 text-light mb-5 animated slideInDown">@Model.HeaderCarouselTextFirst</h4>
                                 <a href="/Home/AboutUs" class="btn btn-primary py-sm-3 px-sm-5">За нас</a>
                                 <a href="/Home/Courses" class="btn btn-light py-sm-3 px-sm-5 ms-3">Kурсове</a>
                             </div>
@@ -26,7 +28,7 @@
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-7">
-                                <h1 class="display-2 text-light mb-5 animated slideInDown">@HeaderCarouselTextSecond</h1>
+                                <h1 class="display-2 text-light mb-5 animated slideInDown">@Model.HeaderCarouselTextSecond</h1>
                                 <a href="/Home/AboutUs" class="btn btn-primary py-sm-3 px-sm-5">За нас</a>
                                 <a href="/Home/Courses" class="btn btn-light py-sm-3 px-sm-5 ms-3">Kурсове</a>
                             </div>
@@ -62,7 +64,7 @@
                             <i class="fa fa-car text-white"></i>
                         </div>
                         <div class="ps-4">
-                            <h6>@EasyDrivingLearn </h6>
+                            <h6>@Model.EasyDrivingLearn </h6>
                             <span>Add description</span>
                         </div>
                     </div>
@@ -75,7 +77,7 @@
                             <i class="fa fa-users text-white"></i>
                         </div>
                         <div class="ps-4">
-                            <h6>@NationalInstructor</h6>
+                            <h6>@Model.NationalInstructor</h6>
                             <span>Add description</span>
                         </div>
                     </div>
@@ -88,7 +90,7 @@
                             <i class="fa fa-file-alt text-white"></i>
                         </div>
                         <div class="ps-4">
-                            <h6>@GetLicence</h6>
+                            <h6>@Model.GetLicence</h6>
                             <span>Add description</span>
                         </div>
                     </div>
@@ -114,16 +116,16 @@
                     <h6 class="text-primary text-uppercase mb-2">
                         за нас
                     </h6>
-                    <h1 class="display-6 mb-4">@Title</h1>
-                    <p>@Description</p>
+                    <h1 class="display-6 mb-4">@Model.Title</h1>
+                    <p>@Model.Description</p>
 
-                    <p class="mb-4"> <i class="fa fa-check text-primary me-2"></i>@text1</p>
-                    <p class="mb-4"> <i class="fa fa-check text-primary me-2"></i>@text2</p>
-                    <p class="mb-4"> <i class="fa fa-check text-primary me-2"></i>@text3</p>
-                    <p class="mb-4"> <i class="fa fa-check text-primary me-2"></i>@text4</p>
-                    <p class="mb-4"> <i class="fa fa-check text-primary me-2"></i>@text5</p>
-                    <p class="mb-4"> <i class="fa fa-check text-primary me-2"></i>@text6</p>
-                    <p class="mb-4"> <i class="fa fa-check text-primary me-2"></i>@text7</p>
+                    <p class="mb-4"> <i class="fa fa-check text-primary me-2"></i>@Model.text1</p>
+                    <p class="mb-4"> <i class="fa fa-check text-primary me-2"></i>@Model.text2</p>
+                    <p class="mb-4"> <i class="fa fa-check text-primary me-2"></i>@Model.text3</p>
+                    <p class="mb-4"> <i class="fa fa-check text-primary me-2"></i>@Model.text4</p>
+                    <p class="mb-4"> <i class="fa fa-check text-primary me-2"></i>@Model.text5</p>
+                    <p class="mb-4"> <i class="fa fa-check text-primary me-2"></i>@Model.text6</p>
+                    <p class="mb-4"> <i class="fa fa-check text-primary me-2"></i>@Model.text7</p>
 
                 </div>
             </div>
