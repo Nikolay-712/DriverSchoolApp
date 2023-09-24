@@ -39,7 +39,6 @@
         <div class="spinner-grow text-primary" role="status"></div>
     </div>
     <!-- Spinner End -->
-
     <!-- Topbar Start -->
     <div class="container-fluid bg-dark text-light p-0">
         <div class="row gx-0 d-none d-lg-flex">
@@ -58,17 +57,20 @@
                     <small class="fa fa-phone-alt text-primary me-2"></small>
                     <small>@PhoneNumber</small>
                 </div>
-                <div class="h-100 d-inline-flex align-items-center mx-n2">
-                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href=""><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href=""><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-square btn-link rounded-0" href=""><i class="fab fa-instagram"></i></a>
+
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <small class="fa fa-phone-alt text-primary me-2"></small>
+                    <small>@PhoneNumber2</small>
                 </div>
+
+                <div class="h-100 d-inline-flex align-items-center mx-n2">
+                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href="https://www.facebook.com/people/%D0%90%D0%B2%D1%82%D0%BE%D1%88%D0%BA%D0%BE%D0%BB%D0%B0-%D0%9F%D0%95%D0%A2%D0%AF-%D0%92%D0%92%D0%A1-%D0%95%D0%9E%D0%9E%D0%94/100063958545095/?locale=bg_BG"><i class="fab fa-facebook-f"></i></a>
+                </div>
+
             </div>
         </div>
     </div>
     <!-- Topbar End -->
-
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
         <a href="/" class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
@@ -83,6 +85,7 @@
                 <a href="/Home/AboutUs" class="nav-item nav-link">за нас</a>
                 <a href="/Home/Courses" class="nav-item nav-link">Курсове</a>
                 <a href="/home/contacts" class="nav-item nav-link">контакти</a>
+                <a href="/home/Questions" class="nav-item nav-link">Често задавани вапроси</a>
             </div>
 
         </div>
@@ -108,7 +111,7 @@
                     <h4 class="text-primary mb-4"><i class="fa fa-car text-white me-2"></i>@Name</h4>
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>@Address</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>@PhoneNumber</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>@Email</p>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <h4 class="text-light mb-4">
@@ -118,18 +121,25 @@
                     <a class="btn btn-link" href="/Home/AboutUs">за нас</a>
                     <a class="btn btn-link" href="/Home/Contacts">Свържете се с нас</a>
                     <a class="btn btn-link" href="/Home/Courses">Нашите услуги</a>
-                    <a class="btn btn-link" href="">Support</a>
+                    <a class="btn btn-link" href="/Home/Questions">Често задавани въпроси</a>
                 </div>
-                
+
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-light mb-4">
+                        Предлагани курсове
+                    </h4>
+                    <a class="btn btn-link" href="/Categories/CategoryB">Категория "В"</a>
+                    <a class="btn btn-link" href="/Categories/CategoryBAuto">Категория "В/78"</a>
+                    <a class="btn btn-link" href="/Categories/CategoryBE">Категория "ВЕ"</a>
+                    <a class="btn btn-link" href="/Categories/CategoryC">Категория "С"</a>
+                    <a class="btn btn-link" href="/Categories/CategoryCE">Категория "СЕ"</a>
+
+                </div>
+
                 <div class="col-lg-4 col-md-6">
                     <h4 class="text-light mb-4">Последвай ни</h4>
-                    <div class="d-flex pt-2">
-                        <a class="btn btn-square btn-outline-light me-1" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-outline-light me-1" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-outline-light me-1" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square btn-outline-light me-0" href=""><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                    
+                    <a class="btn btn-square btn-outline-light me-1" href="https://www.facebook.com/people/%D0%90%D0%B2%D1%82%D0%BE%D1%88%D0%BA%D0%BE%D0%BB%D0%B0-%D0%9F%D0%95%D0%A2%D0%AF-%D0%92%D0%92%D0%A1-%D0%95%D0%9E%D0%9E%D0%94/100063958545095/?locale=bg_BG"><i class="fab fa-facebook"></i></a>
+
                 </div>
             </div>
         </div>
@@ -140,9 +150,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a href="#">Your Site Name</a>, All Right Reserved.
+                    &copy; <a href="#">@Name</a>, All Right Reserved.
                 </div>
-               
+
             </div>
         </div>
     </div>

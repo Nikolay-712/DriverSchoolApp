@@ -32,6 +32,8 @@ public class HomeController : Controller
         return this.View(indexViewModel);
     }
 
+    public IActionResult Questions() => this.View();
+
     public IActionResult Error() => this.View();
 
 }
