@@ -33,6 +33,4 @@ public class Category_B
             "Теоретичен изпит пред ДАИ",
             "Практически изпит пред ДАИ"
     };
-
-    public string ImageUrl => "img/categories_B_car.jpg";
 }

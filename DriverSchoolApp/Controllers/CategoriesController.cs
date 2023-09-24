@@ -41,4 +41,9 @@ public class CategoriesController : Controller
         return this.View(category_CE);
     }
 
+    public IActionResult CategoryRefresh()
+    {
+        return this.View();
+    }
+
 }
